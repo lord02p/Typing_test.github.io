@@ -1,0 +1,91 @@
+.login-box {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.login-box input {
+    background-color: #fff;
+    width: 20rem;
+    height: 2.9rem;
+    box-shadow: 2px 2px 4px #0000001a;
+    border-radius: 34px;
+    font-size: 17px;
+    outline: none;
+    color: #5B6366;
+    padding-left: 15px;
+    font-family: Roboto, Arial, Tahoma, sans-serif;
+    border: none;
+    text-decoration: none;
+    line-height: 49px;
+    transition: all 0.3s ease;
+}
+
+.login-box input:hover {
+    background-color: #ececec;
+}
+
+.login-box button {
+    display: block;
+    margin-top: 1rem;
+    font-family: Roboto, Arial, Tahoma, sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    background: #15bbc3 0% 0% no-repeat padding-box;
+    box-shadow: 2px 2px 4px #0000001a;
+    border: 1px solid #93F8E0;
+    border-radius: 20px;
+    width: 143px;
+    height: 42px;
+    color: white;
+    line-height: 38px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.textarea-box {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.textarea-box textarea {
+    background-color: #fff;
+    width: 36rem;
+    height: 17.9rem;
+    box-shadow: 2px 2px 4px #0000001a;
+    border-radius: 34px;
+    font-size: 17px;
+    outline: none;
+    color: #5B6366;
+    padding-left: 15px;
+    font-family: Roboto, Arial, Tahoma, sans-serif;
+    border: none;
+    text-decoration: none;
+    line-height: 49px;
+    transition: all 0.3s ease;
+}
+
+.textarea-box button {
+    display: block;
+    margin-top: 1rem;
+    font-family: Roboto, Arial, Tahoma, sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    background: #15bbc3 0% 0% no-repeat padding-box;
+    box-shadow: 2px 2px 4px #0000001a;
+    border: 1px solid #93F8E0;
+    border-radius: 20px;
+    width: 143px;
+    height: 42px;
+    color: white;
+    line-height: 38px;
+    cursor: pointer;
+    transition: .3s;
+}
